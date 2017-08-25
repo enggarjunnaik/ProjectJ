@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Arjun Naik</title>
+		<h1> A Game of Loans </h1>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+
+		
+		<link href="contactstyle.css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtVwwl39qgMcYdVBlvu7a1GK1AqSa4fGE"></script>
+
+
+	</head>
+ <style media="screen">
+	html, body{
+			height: 100%;
+			margin: 0;
+		} 
+/*		#map{
+			height: 300px;
+			width: 300px;
+			margin: 100px;
+		} */
+		</style> 
+	
+
+	<body background="../background2.jpeg" ng-app>
+
+		
+
+		<nav class="{{active}}" >
+
+			
+
+			<a href="../navigation-menu/index.html" class="home" >Home</a>
+			<a href="../instant-search/Searchbar.html" class="projects" >Projects</a>
+			<a href="../Journey/Jgame.html" class="services" >Game</a>
+			<a href="#" class="contact" >Contact</a>
+		</nav><br>
+		<input type="button" id="Birth Kingdom" onclick="reply_click(this.id)" value="Birth Kingdom" class="btn btn-primary">
+		<input type="button" id="Teaching attained" onclick="reply_click(this.id)"value="Teaching attained" class="btn btn-primary">
+		<input type="button" id="Previous endeavours" onclick="reply_click(this.id)"value="Previous Endeavours" class="btn btn-primary">
+		<input type="button" id="Post graduate wars" onclick="reply_click(this.id)"value="Post graduate wars" class="btn btn-primary">
+		<input type="button" id="Current whereabouts" onclick="reply_click(this.id)"value="Current whereabouts" class="btn btn-primary">
+
+		
+		<div id="map">
+			
+
+		</div><br>
+		
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtVwwl39qgMcYdVBlvu7a1GK1AqSa4fGE&callback=initMap"
+    async defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+	</body>
+	<div class="map">
+	<script src="Contact.js"> charset="utf-8"</script>
+	</div>
+</html>
