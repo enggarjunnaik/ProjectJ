@@ -1,3 +1,3 @@
 # ProjectJ
 A sample web application for fun
-Please visit https://d104enxz97oequ.cloudfront.net/navigation-menu/index.html to check the functionality of the same.
+Please visit https://d32m6iy9pynbus.cloudfront.net  to check the functionality of the same.
